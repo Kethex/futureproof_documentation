@@ -13,7 +13,7 @@ GET /houses
 }
 ```
 
-### retrieve a single house object
+### Retrieve a single house object
 ```
 GET /houses/:id
 {
@@ -44,30 +44,39 @@ GET /houses/:id
 }
 ```
 ### Retrieve address for single house
-
-`GET /houses/:id/address
+```
+GET /houses/:id/address
     {
        house_num
        address_line_1
        address_line_2
             county
             post_code
-    }`
-Retrieve owner for single house
+    }
+```
+
+### Retrieve owner for single house
+
+```
 GET /houses/:id/owner
     owner: {
            id
        name
             Age
     }
-Retrieve all people
+```
+
+### Retrieve all people
+```
 GET /people
 {
     data: [
         {}
     ]
 }
-Retrieve single person
+```
+### Retrieve single person
+```
 GET /people/:id
 {
     id
@@ -78,11 +87,18 @@ GET /people/:id
       numberOfPeople
     }
 }
-Retrieve people in certain age bracket
+```
+
+### Retrieve people in certain age bracket
+```
 GET /people/ages/:ageBracket
-Retrieve all people that suit household size
+```
+### Retrieve all people that suit household size
+```
 GET /people/householdsize/:num
-Set up a person record
+```
+### Set up a person record
+```
 POST /people
 PUT /people/:id
 //delete a person, also removes links in address
@@ -94,3 +110,4 @@ PUT /houses/:id
 DELETE /houses/:id
 Creates a record linking person and house
 POST /address
+```
