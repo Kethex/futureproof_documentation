@@ -1,14 +1,14 @@
 # futureproof_documentation
 
-```
-HouseStuff
-Retrieve array of all house objects
-GET /houses
+
+## HouseStuff
+### Retrieve array of all house objects
+`GET /houses
 {
     data: [
         {}
     ]
-}
+}`
 //retrieve a single house object
 GET /houses/:id
 {
