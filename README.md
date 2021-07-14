@@ -2,15 +2,19 @@
 
 
 ## HouseStuff
+
 ### Retrieve array of all house objects
+
 `GET /houses
 {
     data: [
         {}
     ]
 }`
-//retrieve a single house object
-GET /houses/:id
+
+### retrieve a single house object
+
+`GET /houses/:id
 {
     owner: {
            id
@@ -36,16 +40,18 @@ GET /houses/:id
         }
     ]
     
-}
-Retrieve address for single house
-GET /houses/:id/address
+}`
+
+### Retrieve address for single house
+
+`GET /houses/:id/address
     {
        house_num
        address_line_1
        address_line_2
             county
             post_code
-    }
+    }`
 Retrieve owner for single house
 GET /houses/:id/owner
     owner: {
