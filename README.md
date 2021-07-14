@@ -101,6 +101,9 @@ GET /people/householdsize/:num
 ```
 POST /people
 PUT /people/:id
+```
+Creates a record for a single person, or update that person's record
+```
 //delete a person, also removes links in address
 DELETE /people/:id
 Set up a house
