@@ -1,5 +1,6 @@
 # futureproof_documentation
 
+## A link to our schema can be found [here](https://dbdiagram.io/d/60eeaafd4ed9be1c05cc24f5)
 
 ## HouseStuff
 
