@@ -97,20 +97,26 @@ GET /people/ages/:ageBracket
 ```
 GET /people/householdsize/:num
 ```
-### Set up a person record
+## Set up a person record
+### Creates a record for a single person, or update that person's record
 ```
 POST /people
 PUT /people/:id
 ```
-Creates a record for a single person, or update that person's record
+### Delete a person, also removes links in address
 ```
-//delete a person, also removes links in address
 DELETE /people/:id
-Set up a house
+```
+## Set up a house record 
+```
 POST /houses
 PUT /houses/:id
-//delete a house, also removes links in address
+```
+### delete a house, also removes links in address
+```
 DELETE /houses/:id
-Creates a record linking person and house
+```
+### Creates a record linking person and house
+```
 POST /address
 ```
