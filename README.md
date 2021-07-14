@@ -82,7 +82,7 @@ GET /people/:id
 {
     id
     name
-         Age
+    Age
     house: {
       House details...
       numberOfPeople
