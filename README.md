@@ -4,17 +4,18 @@
 ## HouseStuff
 
 ### Retrieve array of all house objects
-
-`GET /houses
+```
+GET /houses
 {
     data: [
         {}
     ]
-}`
+}
+```
 
 ### retrieve a single house object
-
-`GET /houses/:id
+```
+GET /houses/:id
 {
     owner: {
            id
@@ -40,8 +41,8 @@
         }
     ]
     
-}`
-
+}
+```
 ### Retrieve address for single house
 
 `GET /houses/:id/address
@@ -93,4 +94,3 @@ PUT /houses/:id
 DELETE /houses/:id
 Creates a record linking person and house
 POST /address
-```
