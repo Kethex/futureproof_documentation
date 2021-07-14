@@ -26,8 +26,8 @@ GET /houses/:id
      house_num
      address_line_1
      address_line_2
-         county
-         post_code
+     county
+     post_code
          
          Residents: [
         {
@@ -51,8 +51,8 @@ GET /houses/:id/address
        house_num
        address_line_1
        address_line_2
-            county
-            post_code
+       county
+       post_code
     }
 ```
 
@@ -84,7 +84,7 @@ GET /people/:id
     name
          Age
     house: {
-           House details...
+      House details...
       numberOfPeople
     }
 }
