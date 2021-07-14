@@ -61,9 +61,9 @@ GET /houses/:id/address
 ```
 GET /houses/:id/owner
     owner: {
-           id
+       id
        name
-            Age
+       Age
     }
 ```
 
