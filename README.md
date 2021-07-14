@@ -1,5 +1,6 @@
 # futureproof_documentation
 
+```
 HouseStuff
 Retrieve array of all house objects
 GET /houses
@@ -86,3 +87,4 @@ PUT /houses/:id
 DELETE /houses/:id
 Creates a record linking person and house
 POST /address
+```
